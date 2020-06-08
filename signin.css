@@ -1,0 +1,150 @@
+/* Sign In styling */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+  
+.signin-box{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-image: linear-gradient(to right bottom, rgba(15, 150, 228,0.6), rgba(10, 168, 168,0.6), rgba(122, 232, 240,0.6) ) , url(images/apple_iphone_6.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.signin-content{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(16, 63, 133, 0.8);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+  
+  
+.signin-content h1{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 7px; 
+    font-family: helvetica;
+    color: #d8dce7;
+}
+  
+.error{
+    margin: 5px auto;
+    width: 80%;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    background-color: rgb(241, 134, 152);
+    color: rgb(255, 0, 0);
+    border-radius: 5px;
+
+}
+
+.username-area{
+    margin: 0px;
+    padding: 10px 0px;
+    position: relative;
+    
+}
+
+.password-area{
+    margin: 0px;
+    padding: 10px 0px;;
+    position: relative;
+}
+
+.signin-text{
+    width: 80%;
+    display: block;
+    margin: 0px auto;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+  
+.submit{
+    font-family: georgia , "Arial";
+    font-size: 17px;
+    margin-top: 30px; 
+    outline: none;
+    padding: 7px;
+    border-radius: 1em;
+    border: none;
+    width: 120px;
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 300%;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: #fff;
+    z-index: 1;
+}
+  
+.submit:hover{
+    font-size: 20px;
+    animation: animate 8s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        background-position: 0%;
+    }
+
+    100%{
+        background-position: 300%;
+    }
+}
+
+#error-text{
+    display: flex;
+    justify-content: left;
+    width: 80%;
+    margin-left: 37px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    padding: 1px 0px;
+}
+
+.ask-Signup{
+    text-align: left;
+    position: absolute;
+    bottom: 20px;
+}
+
+#text{
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: gray;
+}
+
+#signup{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    padding-left: 2px;
+    text-decoration: none;
+    color: rgb(79, 204, 241);
+    transition: 0.5s;
+}
+
+#signup:hover{
+    color: rgb(243, 145, 145);
+    font-size: 15px;
+}
+  
+/* Sign In Styling End*/
+  

@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:cursive;  
+}
+
+html,body{
+    height: 100%;
+}
+
+.Phones{
+    position: relative;
+    top: 65px;
+}
+
+.phone-box{
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+}
+
+.phone_content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 10px 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.phone_content img{
+    height: 45vh;
+    width: 20%;
+    margin: 0px 20px;
+}
+
+.text-content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin: 0px 50px;
+    padding: 0px;
+}
+
+.text-content a{
+    flex: 0.5;
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(233, 52, 52);
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.text-content ul{
+    flex: 1;
+    font-family: monospace;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+
+.text-content ul li{
+    font-family: monospace;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+}
+
+.text-content h3{
+    flex: 0.5;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 15px;
+}
+
+.nothing{
+    position: relative;
+    
+    margin-left: 5px;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 20px;
+    height: 100%;
+}
+
+ 
